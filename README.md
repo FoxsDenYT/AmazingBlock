@@ -1,7 +1,7 @@
 # AmazingBlock
 A tool to unblock (most) sites in school or the office.
 # Documentation
-## *.nor.* pages
+## \*.nor.\* pages
 Nor pages specify that they should not be redirected to the apps page if the user is authenticated. This does not disable authorization checks.
 ## Setting the PIN
 To specify the PIN open **scriptlet.js** in the editor and replace the value with *PIN* of your choice.
@@ -13,6 +13,6 @@ To specify the PIN open **scriptlet.js** in the editor and replace the value wit
 ## Securing AmazingBlock in the event of a breach
 In **scriptlet.js** replace the PIN with one of your choice to kick all users.
 ## Enabling a contact button
-Set *contactButton* to *true* in **scriptlet.js**
+Set *contactButtonEnabled* to *true* in **scriptlet.js** and *contactButtonURL* to the URL of your choice (to use email [not reccomended] use a *mailto:* link)
 ## Disabling all access to AmazingBlock
 Set *enabled* to *false* in **scriptlet.js**
